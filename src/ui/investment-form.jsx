@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import styles from "@cushon/ui/investment-form.module.css";
+import styles from "./investment-form.module.css";
 
 export default function InvestmentForm(props) {
   const [amount, setAmount] = useState("");

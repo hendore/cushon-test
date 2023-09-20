@@ -3,7 +3,7 @@ import { useSelector } from "react-redux";
 import { selectFundById } from "@cushon/state/queries";
 import { formatCurrency } from "@cushon/utilities";
 import { formatTimestamp } from "@cushon/utilities";
-import styles from "@cushon/ui/investment-history-item.module.css";
+import styles from "./investment-history-item.module.css";
 
 export default function InvestmentHistoryItem(props) {
   const fund = useSelector(selectFundById(props.investment.fundId));

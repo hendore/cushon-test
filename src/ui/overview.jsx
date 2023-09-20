@@ -2,8 +2,8 @@ import React from "react";
 import { useSelector } from "react-redux";
 import { selectTotalInvested } from "@cushon/state/queries";
 import { formatCurrency } from "@cushon/utilities";
-import InvestmentHistory from "@cushon/ui/investment-history";
-import styles from "@cushon/ui/overview.module.css";
+import InvestmentHistory from "./investment-history";
+import styles from "./overview.module.css";
 
 export default function Overview(props) {
   const totalInvested = useSelector(selectTotalInvested);

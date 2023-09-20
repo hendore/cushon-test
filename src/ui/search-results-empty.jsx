@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "@cushon/ui/search-results-empty.module.css";
+import styles from "./search-results-empty.module.css";
 
 export default function SearchResultsEmpty(props) {
   return (

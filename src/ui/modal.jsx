@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import styles from "@cushon/ui/modal.module.css";
+import styles from "./modal.module.css";
 
 export default function FundDetailsModal(props) {
   return (

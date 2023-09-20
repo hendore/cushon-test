@@ -2,12 +2,12 @@ import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { selectPreloading, selectActiveFundId } from "@cushon/state/queries";
 import { preload } from "@cushon/state/actions";
-import Loading from "@cushon/ui/loading";
-import FadeIn from "@cushon/ui/fade-in";
-import Overview from "@cushon/ui/overview";
-import FundExplorer from "@cushon/ui/fund-explorer";
-import FundDetailsModal from "@cushon/ui/fund-details-modal";
-import styles from "@cushon/ui/dashboard.module.css";
+import Loading from "./loading";
+import FadeIn from "./fade-in";
+import Overview from "./overview";
+import FundExplorer from "./fund-explorer";
+import FundDetailsModal from "./fund-details-modal";
+import styles from "./dashboard.module.css";
 
 export default function Dashboard(props) {
   const dispatch = useDispatch();

@@ -2,7 +2,7 @@ import React from "react";
 import { useDispatch } from "react-redux";
 import { selectFund } from "@cushon/state/actions";
 import { riskLevelText } from "@cushon/utilities";
-import styles from "@cushon/ui/search-result-item.module.css";
+import styles from "./search-result-item.module.css";
 
 export default function SearchResultItem(props) {
   const dispatch = useDispatch();

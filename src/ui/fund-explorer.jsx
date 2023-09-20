@@ -1,7 +1,7 @@
 import React from "react";
-import SearchBar from "@cushon/ui/search-bar";
-import SearchResults from "@cushon/ui/search-results";
-import styles from "@cushon/ui/fund-explorer.module.css";
+import SearchBar from "./search-bar";
+import SearchResults from "./search-results";
+import styles from "./fund-explorer.module.css";
 
 export default function FundExplorer(props) {
   return (

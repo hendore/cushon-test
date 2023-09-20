@@ -2,8 +2,8 @@ import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { addInvestment, deselectFund } from "@cushon/state/actions";
 import { selectFundById } from "@cushon/state/queries";
-import InvestmentForm from "@cushon/ui/investment-form";
-import Modal from "@cushon/ui/modal";
+import InvestmentForm from "./investment-form";
+import Modal from "./modal";
 import confetti from "canvas-confetti";
 
 export default function FundDetailsModal(props) {
