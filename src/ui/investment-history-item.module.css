@@ -1,0 +1,18 @@
+.container {
+    padding: 6px 0;
+}
+
+.amount {
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.fund {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.date {
+    font-size: 12px;
+    opacity: 0.8;
+}

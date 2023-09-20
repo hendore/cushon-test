@@ -1,0 +1,91 @@
+[{
+    "id": "qpCX46rcS6",
+    "name": "CushonMix medium risk/return ISA",
+    "description": "This investment spreads your money across top rated funds from our comparison tables. Spreading your money allows each individual fund to be slightly riskier, which helps boost projected returns, whilst still controlling the overall risk of the investment.",
+    "risk": 2,
+    "projectedReturns": 5.75
+},{
+    "id": "7kOqEATIOs",
+    "name": "Fidelity Emerging Markets W Acc ISA",
+    "description": "The Fund aims to increase the value of your investment over a period of 5 years of more. The Fund will invest at least 70% in equities (and their related securities) of companies (those domiciled, incorporated or having significant business or being listed) in countries experiencing higher levels of economic growth",
+    "risk": 3,
+    "projectedReturns": 8.05
+},{
+    "id": "kTyf8w1jzO",
+    "name": "Barclays UK Equity Income R Acc GBP ISA",
+    "description": "The Fund seeks to provide capital growth and income. It aims to achieve an income in line with, or in excess of, the income of the FTSE All-Share Index (Total Return)* over the long term (any 5 year period).",
+    "risk": 3,
+    "projectedReturns": 6.16
+},{
+    "id": "zog5fte4T8",
+    "name": "BMO Universal MAP Balanced C Acc ISA",
+    "description": "The Fund seeks to provide long term growth (combining capital and income) consistent with a medium to high volatility level over the long term.",
+    "risk": 2,
+    "projectedReturns": 5.75
+},{
+    "id": "JngILJmWHf",
+    "name": "Vanguard LifeStrategy 60% Equity A Acc ISA",
+    "description": "The Fund seeks to achieve income and/or capital returns through a portfolio comprising approximately 60% stocks and 40% bonds.",
+    "risk": 2,
+    "projectedReturns": 5.39
+},{
+    "id": "k9MlkSbU68",
+    "name": "ASI Global Corporate Bond Tracker B Acc ISA",
+    "description": "To generate income and some growth over the long term (5 years or more) by tracking the return of the Bloomberg Global Aggregate Corporate Index (Hedged to GBP).",
+    "risk": 2,
+    "projectedReturns": 5.25
+},{
+    "id": "SRdtF9k8nF",
+    "name": "Vanguard Global Credit Bond Inv Hedged Acc GBP ISA",
+    "description": "The Fund seeks to provide a moderate and sustainable level of current income by investing in a diversified portfolio of global credit bonds.",
+    "risk": 1,
+    "projectedReturns": 5.16
+},{
+    "id": "QC8EdRBv8e",
+    "name": "L&G Mixed Investment 20-60% I Acc ISA",
+    "description": "The objective of this fund is to provide growth of both capital and income. The fund will invest in a broad range of UK and overseas company shares, bonds (a type of loan which pays interest) and other assets.",
+    "risk": 1,
+    "projectedReturns": 5.12
+},{
+    "id": "a5PIaJZn5J",
+    "name": "Barclays Wealth Global Markets 3 R Acc GBP ISA",
+    "description": "The Fund seeks to provide capital growth and income over the long term (a period of at least 5 years).",
+    "risk": 1,
+    "projectedReturns": 5.11
+},{
+    "id": "AHMqpbqpcW",
+    "name": "BMO Universal MAP Cautious C Acc ISA",
+    "description": "The Fund seeks to provide long term growth (combining capital and income) consistent with a cautious volatility level over the long term.",
+    "risk": 1,
+    "projectedReturns": 5.1
+},{
+    "id": "vUeYta7gmG",
+    "name": "CushonMix very high risk/return ISA",
+    "description": "This investment spreads your money across top rated funds from our comparison tables. Spreading your money allows each individual fund to be slightly riskier, which helps boost projected returns, whilst still controlling the overall risk of the investment.",
+    "risk": 3,
+    "projectedReturns": 8.58
+},{
+    "id": "1lSBMRy4NZ",
+    "name": "CushonMix low risk/return ISA",
+    "description": "This investment spreads your money across top rated funds from our comparison tables. Spreading your money allows each individual fund to be slightly riskier, which helps boost projected returns, whilst still controlling the overall risk of the investment.",
+    "risk": 1,
+    "projectedReturns": 4.61
+},{
+    "id": "4xhfKWFL7S",
+    "name": "Close FTSE techMARK X Acc ISA",
+    "description": "The Scheme aims to track the FTSE techMARK Focus Index performance in capital terms.",
+    "risk": 3,
+    "projectedReturns": 8.6
+},{
+    "id": "xz4dvYVuEE",
+    "name": "Morgan Stanley US Advantage I Acc GBP ISA",
+    "description": "Seeks long term capital appreciation, measured in U.S. dollars, by investing primarily in securities issued by U.S.",
+    "risk": 3,
+    "projectedReturns": 8.56
+},{
+    "id": "Sg98fyZjKv",
+    "name": "Janus Henderson Global Equity I Acc ISA",
+    "description": "To achieve above average long term capital growth. The Fund will invest principally in a concentrated portfolio of global securities with a bias to those companies that have developed strong franchises and competitive advantages.",
+    "projectedReturns": 8.55,
+    "risk": 3
+}]

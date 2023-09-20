@@ -1,0 +1,31 @@
+.container {
+    --overview-panel-width: 420px;
+
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    grid-template-columns: var(--overview-panel-width) 1fr;
+}
+
+.overviewContainer {
+    --inset: 24px 32px;
+    --bg-image: url(/images/savings-pattern-subtle.png);
+    --bg-scrolling-speed: 18s;
+
+    padding: var(--inset);
+    border-right: 1px solid var(--palette-outline);
+    background: var(--bg-image) repeat;
+    background-size: 320px;
+    animation: overview-background-scroll var(--bg-scrolling-speed) linear infinite;
+    overflow: auto;
+}
+
+.explorerContainer {
+    overflow: auto;
+}
+
+@keyframes overview-background-scroll {
+    0% { background-position: 0 0; }
+    100% { background-position: 320px 320px; }
+}

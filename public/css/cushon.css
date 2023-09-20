@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&display=swap');
+
+:root {
+    --font-sans: 'Open Sans', 'Helvetica', sans-serif;
+
+    --palette-background: #fff;
+    --palette-brand: #fd2492;
+    --palette-on-brand: #ffffff;
+    --palette-neutral: #dcdcdc;
+    --palette-on-neutral: #131313;
+    --palette-outline: #eaeaea;
+
+    --roundiness: 10px;
+}
+
+body {
+    margin: 0;
+    font-family: var(--font-sans);
+    overscroll-behavior: none;
+}
+
+.text-input {
+    --outline-color: var(--palette-outline);
+    --outline-color-focused: var(--palette-brand);
+    --outline-width: 3px;
+    --radius: var(--roundiness);
+
+    padding: 8px;
+    border: var(--outline-width) solid var(--outline-color);
+    border-radius: var(--radius);
+    outline: none;
+}
+
+.text-input:focus {
+    border-color: var(--outline-color-focused);
+}
+
+.button {
+    --background-color: var(--palette-brand);
+    --foreground-color: var(--palette-on-brand);
+    --radius: var(--roundiness);
+    --horizontal-padding: 24px;
+    --vertical-padding: 12px;
+
+    display: inline-block;
+    padding: var(--vertical-padding) var(--horizontal-padding);
+    background-color: var(--background-color);
+    font-weight: 600;
+    color: var(--foreground-color);
+    border-radius: var(--radius);
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    filter: brightness(110%);
+}
+
+.button:disabled {
+    pointer-events: none;
+    opacity: 0.6;
+}
+
+.secondary.button {
+    --background-color: var(--palette-neutral);
+    --foreground-color: var(--palette-on-neutral)
+}
+
+/* Little touch to bring the brand in when highlighting text */
+::selection {
+    background-color: var(--palette-brand);
+    color: var(--palette-on-brand);
+}

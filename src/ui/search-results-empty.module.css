@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    padding: 100px;
+}
+
+.image {
+    width: 280px;
+    margin-bottom: 32px;
+}
+
+.heading {
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 1.5em;
+    margin: 0;
+}
+
+.snippet {
+    font-weight: 300;
+}

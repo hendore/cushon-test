@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid var(--palette-outline);
+}
+
+.name {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.riskLevel {
+    display: block;
+    font-size: 13px;
+    font-weight: 800;
+    color: var(--palette-brand);
+    margin-bottom: 4px;
+}
+
+.projectedReturns {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.actionContainer {
+    margin-left: auto;
+}
