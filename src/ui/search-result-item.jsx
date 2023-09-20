@@ -7,7 +7,7 @@ import styles from "./search-result-item.module.css";
 export default function SearchResultItem(props) {
   const dispatch = useDispatch();
 
-  function handleClickInvest() {
+  function handleClickViewDetails() {
     dispatch(selectFund(props.fund.id));
   }
 
@@ -23,7 +23,7 @@ export default function SearchResultItem(props) {
         </span>
       </div>
       <div className={styles.actionContainer}>
-        <button className="button" onClick={handleClickInvest}>
+        <button className="button" onClick={handleClickViewDetails}>
           <i className="fas fa-fw fa-info-circle" /> View Fund Details
         </button>
       </div>
